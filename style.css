@@ -21,6 +21,9 @@ nav{
     justify-content:space-between;
     align-items: center;
     flex-wrap: wrap;
+    background-color: #000000;
+    width: 100vw;
+    border-bottom: 1px solid rgb(27, 27, 27);
     
 
 }
