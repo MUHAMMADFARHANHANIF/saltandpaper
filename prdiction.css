@@ -1,0 +1,257 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #000000;
+    width: fit-content;
+    
+
+   
+}
+
+
+nav{
+    padding: 10px 140px 10px 100px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #000000;
+    width: 100%;
+    border-bottom: 1px solid rgb(27, 27, 27);
+    
+
+}
+/* nav left  */
+
+#nav-left img{
+    width: 165px;
+}
+
+
+/* nav right  */
+#nav-right{
+    justify-content: space-around;
+}
+
+#nav-right a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0px 10px;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+#nav-right .dark-button{
+    border: 1px solid gray;
+    border-radius: 30px;
+    background-color: #ed1c24;
+    padding: 18px 8px;
+    margin-left: 10px;
+    font-size: 1rem;
+    color: white;
+    border: none;
+}
+#nav-right .light-button{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    background-color:transparent;
+    color: white;
+    padding: 18px 8px;
+    margin-left: 20px;
+    font-size: 1rem;
+}
+#nav-right img{
+    width: 30px;
+    margin: -10px 5px;
+    border-radius: 50px;
+    border: 1px solid red;
+
+}
+/* nav bar end  */
+
+
+
+
+
+
+
+#books-contianer{
+
+    width: 100vw;
+    height: 100%;
+    padding: 100px 100px;
+    display: flex;
+    /* grid:10px 10px; */
+    /* flex-wrap: wrap; */
+    /* background-color: #332b2b; */
+}
+
+#book1{
+    /* padding: 60px 100px; */
+    width: 80%;
+    height: 100%;
+
+}
+#book2{
+    /* padding: 60px 100px; */
+    width: 80%;
+    height: 100%;
+
+}
+
+
+
+#book1 img{
+    
+    width: 90%;
+    height: 100%;
+    /* background-color: #fff; */
+    border: 1px solid rgb(66, 62, 62);
+}
+#book2 img{
+    width: 90%;
+    height: 100%;
+    /* background-color: #a84242; */
+    border: 1px solid rgb(66, 62, 62);
+
+}
+
+
+
+#Available{
+    margin: 0 auto 100px;
+    width: 40%;
+    height: 100%;
+    /* background-color: #fff; */
+    text-align: center;
+    color: #ffffff;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+
+}
+#Available p{
+    margin: 10px auto;
+    font-size: 1rem;
+    color: #636363;
+
+
+}
+
+
+#Available h1{
+    margin: 50px auto;
+    text-transform: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+#Available span{
+    font-weight: bold;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+footer{
+    /* align-items: center; */
+    justify-content: space-evenly;
+    width: 100%;
+    /* height: 100%; */
+    color: #ffffff;
+    /* position: absolute; */
+    background-color: #272323;
+    display: flex;
+}
+
+#footer1{
+    margin-top: 50px;
+    width: 25%;
+    height: 400px;
+    position: relative;
+    
+    /* background-color: #a30000; */
+    /* margin-top: 100px; */
+    align-items: center;
+    justify-content: center;
+}
+#footer1 p{
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+#footer h3{
+    font-size: 1.3rem;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+
+}
+
+#footer1 img{
+    width: 150px;
+    height: 100px;
+    margin-top: 10px;
+}
+#footer1 .social-img{
+width: 170px;
+margin-top: -50px;
+height: 60px;
+margin-bottom: 50px
+}
+hr{
+    color: #644e4e;
+}
+#footer1 .social-a {
+    /* border: 1px solid rgb(114, 102, 102); */
+    border-radius: 50%;
+    /* width: 60px; */
+    font-size: .7rem;
+    padding: 20px 15px;
+    /* margin-top: 10px; */
+    
+    background-color: #ff0000;
+    text-transform: uppercase;
+    margin-left: 5px;
+}
+
+#footer1 #icon{
+    margin-top: 50px;
+    /* background-color: #fff; */
+    margin-bottom: 100px;
+
+}
+
+
+#footer1 h3{
+    margin-bottom: 10px;
+}
+
+#footer1 a{
+    /* margin-top: 100px; */
+    text-decoration: none;
+    /* background-color: #fff; */
+    
+    color: #ffffff;
+}
+#last{
+    display: flex;
+    justify-content:space-between;
+    padding: 10px 10px;
+    border-top: 1px solid #5a5757;
+}
+.end-p{
+    color: #ffffff;
+
+}
+#footer1:nth-child(2n){
+    width: 16%;
+    /* background-color: #fff; */
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 3px rgb(255, 255, 255);
+    background-color: #33ff00;
+}
